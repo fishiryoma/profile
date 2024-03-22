@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { H1, H3 } from "./style/title";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -20,23 +20,6 @@ const CardContainer = styled.div`
   @media screen and (min-width: 1200px) {
     margin-right: 4rem;
   }
-`;
-
-const shiny = keyframes`
-  0% {
-        transform: scale(0) rotate(25deg);
-        opacity: 0;
-    }
-
-    50% {
-        transform: scale(1) rotate(25deg);
-        opacity: 1;
-    }
-
-    100% {
-        transform: scale(50) rotate(25deg);
-        opacity: 0;
-    }
 `;
 
 const Img = styled.img`

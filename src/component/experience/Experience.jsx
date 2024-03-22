@@ -14,6 +14,7 @@ const WORK = [
   {
     duration: "2019-2023",
     company: "位速科技股份有限公司",
+
     position: "R&D Engineer",
     description:
       "參與有機太陽能電池研發工作。藉由英文文獻閱讀、實驗設計及數據分析每年提升電池效率2%。共發表6篇相關技術專利。",
