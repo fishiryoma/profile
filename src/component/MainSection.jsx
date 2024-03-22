@@ -72,11 +72,15 @@ const ModalBox = styled.div`
 
 const CloseBtn = styled.button`
   position: fixed;
-  top: 2rem;
-  right: 2rem;
+  top: 1rem;
+  right: 1rem;
   background-color: transparent;
   color: #fff;
   font-weight: bold;
+  @media screen and (min-width: 768px) {
+    top: 2rem;
+    right: 2rem;
+  }
 `;
 const DisplayImg = styled.img`
   width: 100%;

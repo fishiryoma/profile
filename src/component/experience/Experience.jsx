@@ -46,9 +46,9 @@ const Dot = styled.div`
   &::after {
     position: absolute;
     top: -340%;
-    right: -14rem;
+    right: -12rem;
     content: "${(props) => props.content}";
-    width: 12rem;
+    width: 10rem;
     height: 2.5rem;
     background-color: #c0e3e7;
     display: flex;
@@ -65,8 +65,8 @@ const Dot = styled.div`
   @media screen and (min-width: 992px) {
     &::after {
       right: 0;
-      left: -14rem;
-      padding-left: 4rem;
+      left: -12rem;
+      padding-left: 3rem;
     }
     &::before {
       left: -2rem;
