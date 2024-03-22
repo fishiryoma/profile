@@ -105,10 +105,15 @@ const GitBtn = styled.a`
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  margin: 2rem auto 0 auto;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
   &:hover {
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: none;
   }
+`;
+
+const DemoBtn = styled(GitBtn)`
+  background-color: #699599;
+  width: 6rem;
 `;
 
 function Modal() {
@@ -175,9 +180,21 @@ function Modal() {
             <div>
               <H1>{rendered[0].name}</H1>
               <Text>{rendered[0].description}</Text>
-              <GitBtn href={rendered[0].link} target="_blank">
-                <H3 style={{ color: "#000" }}>GitHub</H3>
-              </GitBtn>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginTop: "2rem",
+                  gap: "2rem",
+                }}
+              >
+                <GitBtn href={rendered[0].link} target="_blank">
+                  <H3 style={{ color: "#000" }}>GitHub</H3>
+                </GitBtn>
+                <DemoBtn href={rendered[0].demo} target="_blank">
+                  <H3 style={{ color: "#fff", fontSize: "1.2rem" }}>Demo</H3>
+                </DemoBtn>
+              </div>
             </div>
           </ModalBox>
         </ModalContainer>

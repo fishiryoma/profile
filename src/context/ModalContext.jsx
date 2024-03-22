@@ -17,6 +17,7 @@ export default function ModalProvider({ children }) {
       description:
         "玩家能夠選擇先攻、後攻與電腦對戰。遊戲結束會出現連線動畫，以及下方自動記錄目前對戰狀況，並串連X(前推特)帳號，能即時與朋友分享遊戲結果。",
       link: "https://github.com/fishiryoma/tictactoe",
+      demo: "https://tictactoe-tess.netlify.app/",
     },
     {
       id: 2,
@@ -29,6 +30,7 @@ export default function ModalProvider({ children }) {
       description:
         "與後端聯手打造，使用者能自行創建帳號，登入使用。輸入每次的交易紀錄及配息紀錄，並能在總覽的頁面看到目前的累績資產，及報酬回本狀況。",
       link: "https://github.com/fishiryoma/stockApp",
+      demo: "https://www.youtube.com/watch?v=EfK9WMvS4g8",
     },
     {
       id: 3,
@@ -41,6 +43,7 @@ export default function ModalProvider({ children }) {
       description:
         "不需額外申請直接串接自己的Spotify帳號，能自由新增分類，及Podcast節目，並加入收藏清單。",
       link: "https://github.com/fishiryoma/ALPHAcast",
+      demo: "https://www.youtube.com/watch?v=8_O6Ygtt63M",
     },
   ];
 
