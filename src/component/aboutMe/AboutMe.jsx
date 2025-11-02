@@ -93,7 +93,7 @@ const INFO = [
   },
   {
     title: "phone",
-    text: "0902-363-265",
+    text: "－",
   },
 ];
 
